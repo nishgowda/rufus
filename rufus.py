@@ -14,7 +14,7 @@ class Rufus:
 	
 	# Returns the current active branch
 	def get_current_branch(self):
-		return self.repo.active_branch
+		return self.repo.active_branch.name
 
 	# Returns true if there are untracked files, false otherwise
 	def has_untracked_files(self):
